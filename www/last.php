@@ -13,7 +13,7 @@
 	<div class="wrapper">
 		<br class="clear">	
 		<a id="header" href="index.html">
-			<img class="logo" src="img/logo-57.png" />
+			<img class="img.logo" src="img/logo-57.png" />
 			<div class="titre">
 				<h1>MyBd.fr</h1>
 				<h2>plein d'infos sur les BD</h2>
@@ -37,7 +37,13 @@
     <br class="clear">	
     
     <div class="MaDivBlock">
-	<h2>Texte au milieu</h2>
+	<label class="Enblock">Auteur</label><input type="text"/>
+ 	<label class="Enblock">Nationalit&eacute;</label><input type="text"/>
+ 	<label class="Enblock">Titre</label><input type="text"/>
+ 	<label class="Enblock">Prix</label><input type="text"/>
+ 	<label class="Enblock">Ann&eacute;e</label><input type="text"/>
+     <label class="Enblock">Disponibilit&eacute;</label><input type="text"/>
+  
     
     </div>
     
@@ -49,7 +55,7 @@
                 <li><a href="search.php">Recherche de BD</a></li>
                 <li><a href="last.php">Les derni&egrave;res BD</a></li>
                 <li><a href="random.php">Au hasard</a></li>
-                <li><a href="legal.php">Info légales</a></li>
+                <li><a href="legal.php">Info l&eacute;gales</a></li>
             </ul>
         </div>
     </div>
